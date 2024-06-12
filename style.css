@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+}
+
+.home{
+  
+    height: 100vh;
+   background-image: url(imag/heroo.jpg);
+}
+
+.sick{
+    background-color: rgba(3, 3, 3, 0.834);
+    width: 100%;
+    height: 100%;
+}
+
+.layer{
+
+    height:90%;
+   
+}
+
+.title{
+    
+    text-align: center;
+    
+ }
+ .title h3{
+     color: white;
+    padding-top: 200px;
+    font-size: large;
+   font-weight: bold;
+ }
+ .title h1{
+     color: #ff305b;
+     font-size: 60px;
+    
+ }
+ 
+ .title p{
+     color: white;
+     font-size: larger;
+     
+ }
+.nav{
+   
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+  
+}
+
+.fakir{
+  
+    color: #ff305b;
+    float: left;
+}
+
+.nav ul{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+   
+}
+
+.nav ul li{
+    float: left;
+    font-size: 15px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+  
+}
+   
+.clr{
+    clear: both;
+}
+
+.cv{
+
+    margin: 70px;
+}
+
+
+.container{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+}
+
+.sec1{
+    width: 45%;
+    float: left;
+}
+
+.sec2{
+    width:45%;
+    float: left;
+    padding-right: 10px;
+    font-size: large;
+    
+}
+
+.clr{
+    clear: both;
+}
+
+.info{
+    
+   
+}
+
+.info ul li{
+   float:left ;
+   width: 50%;
+   padding-top: 30px;
+    list-style-type: none;
+  
+}
+
+.btn{
+     
+    margin-left: 60px;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 45px;
+    margin-top: 20px;
+   
+  
+}
+
+.tnp{
+    
+    margin-left: 40px;
+    background-color: #ff305b;
+    color: white;
+    margin-right: 10px;
+    padding: 10px 30px;
+   
+}
+
+
+.service{
+  
+    margin-top: 40px;
+    margin-bottom: 40px;
+   min-height: 500px;
+   background-color: rgba(227, 224, 224, 0.421);
+   
+   
+    
+  
+  }
+     
+  .content{
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      overflow: auto;
+     
+  }
+  
+  .content h2{
+      padding-bottom: 30px;
+     
+  }
+  
+  .part1{
+      width: 23%;
+      float: left;
+      margin: auto;
+      padding: 1%;
+      text-align: center;
+  
+  }
+  
+  .part1 i{
+      font-size: 50px;
+  }
+  
+  .designs{
+    
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
+   
+  }
+  .para p{
+    font-size: medium;
+    margin-bottom: 40px;
+    word-spacing: 10px;
+   cursor: pointer;
+
+  }
+  .products{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+   
+   
+   
+   
+  }
+   .products img{
+    width: 100%;
+    cursor: pointer;
+    
+
+  
+  
+  }
+ 
+  .ourgallery{
+    Padding: 0px 200px;
+  }
+
+ .members{
+    background-color: rgba(225, 225, 225, 0.486);
+   margin-top: 50px;
+}
+
+.container1{
+    width: 80%;
+
+}
+
+.group{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 150px;
+    padding-left: 250px;
+   
+    
+}
+.group i{
+    color: #ff305b;
+    font-size: x-large;
+}
+.group h1{
+    font-size: large;
+}
+
+.productimg{
+    position: relative;
+    overflow: hidden;
+}
+
+.soha{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.productimg:hover .soha{
+   opacity: 1;
+}
+
+.feedback{
+    background-color: rgba(184, 183, 183, 0.362);
+    margin: auto;
+    margin-top: 80px;
+    width: 60%;
+    height: 40%;
+
+}
+
+
+.feedback h1{
+    text-align: center;
+}
+
+
+.client img{
+float: left;
+border-radius: 50%;
+padding-left: 40px;
+
+}
+
+
+.client h3{
+ float: left;
+  padding-left: 40px;
+  
+
+}
+
+.words{
+    padding-top: 50px;
+    padding-right: 40px;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+
+
+
+.clients h3{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.item3{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.item3 img{
+    width: 100%;
+ 
+}
+
+.vlog{
+    text-align: center;
+    background-color: rgba(230, 228, 228, 0.658);
+    width: 100%;
+    margin: auto;
+  
+   
+}
+.new{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.item-vlog{
+    text-align: left;
+}
+
+.contact{
+    margin-top: 150px;
+    min-height: 500px;
+    
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.details {
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.n{
+
+width: 400px;
+height: 40px;
+
+}
+
+.e{
+width: 300px;
+height: 40px;
+
+}
+
+.sa{
+     
+    width: 700px;
+    height: 40px
+}
+
+.me{
+     
+    width: 700px;
+    height: 100px
+    
+}
+
+.bo{
+    background-color: #ff305b;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+
+.logo{
+
+    word-spacing: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.finish{
+    padding-bottom: 60px;
+   background-color: rgba(27, 26, 26, 0.901);
+    min-height: 10px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 90px;
+    padding-left: 5px;
+}
+
+.fnsh p{
+
+text-align: center;
+}
